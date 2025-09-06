@@ -59,7 +59,7 @@ img {
 }
 
 .header {
-    1px solid #e7e9fc;
+    border-bottom: 1px solid #e7e9fc;
 }
 
 .flex-box {
@@ -192,12 +192,12 @@ h1 {
 }
 
 
-.values-section: {
+.values-section {
     padding: 120px 0;
 }
 
 .values-item {
-    width calc((100% - 3 * 24px) / 4);
+    width: calc((100% - 3 * 24px) / 4);
 }
 
 .values-list {
@@ -212,7 +212,7 @@ h1 {
         line-height: 1.2;
         letter-spacing: 0.02em;
         font-weight: 500;
-        margin-bottom: 8px;
+       
 }
 
 .values-subtitle {
@@ -221,6 +221,7 @@ h1 {
         letter-spacing: 0.02em;
         font-weight: medium;
         font-weight: 500;
+        margin-bottom: 8px;
     
 }
 
@@ -270,7 +271,7 @@ h1 {
         text-align: center;
         text-transform: capitalize;
         font-weight: 500;
-        margin-bottom: 72px
+        margin-bottom: 8px
 }
 
 .team-person {
@@ -283,7 +284,7 @@ h1 {
         letter-spacing: 0.02em;
         font-weight: 500;
        padding-top: 32px;
-    text-align: center
+    text-align: center;
        
 }
 
@@ -303,7 +304,7 @@ h1 {
 
 .portfolio-section {
     padding-top: 120px;
-    padding-bottom: 152px;
+    padding-bottom: 120px;
 }
 
 .portfolio-list {
