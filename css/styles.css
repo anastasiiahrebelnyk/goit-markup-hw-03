@@ -91,7 +91,7 @@ img {
     gap: 40px;
     margin-right: auto;
     justify-content: space-between;
-    
+    padding: 24px 0;
 
 }
 
@@ -176,6 +176,8 @@ h1 {
     padding: 16px 32px;
     border-radius: 4px;
     border: none;
+    min-width: 169px;
+    cursor: pointer;
 
 }
 
@@ -184,6 +186,15 @@ h1 {
     background-color: #404BBF;
     color: #FFFFFF;
     cursor: pointer;
+}
+
+
+.values-section: {
+    padding: 120px 0;
+}
+
+.values-item {
+    width calc((100% - 3 * 24px) / 4);
 }
 
 .values-list {
@@ -223,6 +234,10 @@ h1 {
     overflow: hidden;
 }
 
+.header {
+    1px solid #e7e9fc
+}
+
 .values-text {
     line-height: 1.5;
         letter-spacing: 0.02em;
@@ -253,8 +268,11 @@ h1 {
         text-align: center;
         text-transform: capitalize;
         font-weight: 500;
-        
-        padding-bottom: 76px;
+        margin-bottom: 72px
+}
+
+.team-person {
+    padding: 32px 0;
 }
 
 .team-subtitle {
@@ -263,6 +281,7 @@ h1 {
         letter-spacing: 0.02em;
         font-weight: 500;
        padding-top: 32px;
+    text-align: center
        
 }
 
@@ -271,26 +290,26 @@ h1 {
         letter-spacing: 0.02em;
         color: #434455;
         padding-bottom: 32px;
+        text-align: center;
 }
 
 .team-item {
     background-color: #FFFFFF;
     width: calc(((100% - 3*24px) / 4));
-}
-
-.flex-text {
-    text-align: center;
+    border-radius: 0px 0px 4px 4px;
 }
 
 .portfolio-section {
-    margin-top: 120px;
-    margin-bottom: 152px;
+    padding-top: 120px;
+    padding-bottom: 152px;
 }
 
 .portfolio-list {
     display: flex;
     flex-wrap: wrap;
     gap: 24px;
+    row-gap: 48px;
+    
 }
 
 .portfolio-title {
@@ -302,12 +321,18 @@ h1 {
         margin-bottom: 72px;
         font-weight: 700;
             font-size: 36px;
+            
 }
 
 .portfolio-list-item {
     width: calc((100% - 2*24px) / 3);
 }
 
+.portfolio-desr {
+  padding: 32px 16px;
+border: 1px solid #e7e9fc;
+border-top: none
+}
 
 .portfolio-list {
     font-size: 20px;
@@ -335,6 +360,7 @@ h1 {
     text-align: left;
     font-weight: 500;
         font-size: 20px;
+        margin-bottom: 8px;
 }
 
 .portfolio-image {
@@ -361,3 +387,7 @@ margin-bottom: 16px;
     max-width: 264px;
 }
 
+.footer-logo {
+display: inline-block;
+margin-bottom: 16px;
+}
