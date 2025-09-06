@@ -15,7 +15,6 @@ ol {
     list-style-type: none;
     padding-left: 0;
     margin: 0;
-    font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -38,8 +37,31 @@ a:active {
     color: #4D5AE5;
 }
 
+
 h1, h2, h3, h4, h5, h6 {
     color: #2E2F42;
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+img {
+    display: block;
+}
+
+.container {
+    max-width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
+
+.flex-box {
+    display: flex;
+    align-items: center;
+    width: ((100%-2)/3);
 }
 
 .logo {
@@ -51,14 +73,21 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
+    padding-top: 24px;
+    padding-bottom: 24px;
+
 }
 
 .logo-name {
     color:#2e2f42;
 }
 
+.nav {
+    gap: 40px;
+    margin-right: auto;
+    justify-content: space-between;
 
-
+}
 
 .nav-link {
     font-size: 16px;
@@ -68,6 +97,9 @@ h1, h2, h3, h4, h5, h6 {
     list-style-type: none;
         text-transform: capitalize;
         text-decoration: none;
+        margin-bottom: 24px;
+        margin-top: 24px;
+    
 }
 
 .nav-link:hover, .nav-link:focus {
@@ -84,6 +116,8 @@ h1, h2, h3, h4, h5, h6 {
 .address {
     text-decoration: none;
     list-style-type: none;
+    justify-content: space-between;
+    gap: 40px;
     
 }
 
@@ -102,6 +136,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .first-section {
 background-color: #2E2F42;
+height: 600px;
 }
 
 h1 {
@@ -113,6 +148,40 @@ h1 {
     line-height: 1.07;
         letter-spacing: 0.02em;
         text-align: center;
+        display: block;
+        padding-top: 188px;
+        padding-bottom: 48px;
+        max-width: 496px;
+        margin: 0% auto;
+}
+
+.button {
+    background-color: #4D5AE5;
+    color: #FFFFFF;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    font-weight: 500;
+    display: block;
+    margin: 0% auto;
+    padding: 16px 32px;
+    border-radius: 4px;
+    border: none;
+
+}
+
+.button:hover,
+.button:focus {
+    background-color: #404BBF;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.second-section-flex-box {
+    display: flex;
+    justify-content: space-between;
+    margin: 120px auto;
+    gap: 24px;
 }
 
 .second-section-title {
@@ -130,6 +199,20 @@ h1 {
         font-weight: 500;
 }
 
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
 .second-section-list-text {
     line-height: 1.5;
         letter-spacing: 0.02em;
@@ -140,26 +223,48 @@ h1 {
     background-color: #F4F4FD;
 }
 
+.third-section-flex-box {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    margin: 0 auto;
+}
+
 .third-section-title {
     font-size: 36px;
         line-height: 1.11;
         letter-spacing: 0.02em;
         text-align: center;
         text-transform: capitalize;
-        font-weight: 500
+        font-weight: 500;
+        padding-top: 120px;
+        padding-bottom: 76px;
 }
 
 .third-section-list-title {
     font-size: 20px;
         line-height: 1.2;
         letter-spacing: 0.02em;
-        font-weight: 500
+        font-weight: 500;
+       padding-top: 32px;
+       
 }
 
 .third-section-text {
     line-height: 1.5;
         letter-spacing: 0.02em;
         color: #434455;
+}
+
+.flex-text{
+    text-align: center;
+}
+
+.forth-section-flex-box {
+    display: flex;
+    flex-wrap: wrap;
+    width: calc((1128px - 2) / 3);
+    gap: 24px;
 }
 
 .forth-section-title {
@@ -173,6 +278,7 @@ h1 {
 
 .third-section-list {
     background-color: #FFFFFF;
+    
 }
 
 .forth-section-list-title {
@@ -183,6 +289,7 @@ h1 {
         text-align: center;
         text-transform: capitalize;
         color:#2e2f42;
+        padding-top: 120px;
 }
 
 .forth-section-list-text {
@@ -192,20 +299,7 @@ h1 {
         font-size: 16px;;
 }
 
-.button {
-background-color:#4D5AE5;
-color: #FFFFFF;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.04em;
-font-weight: 500;
 
-}
-
-.button:hover, .button:focus {
-    background-color: #404BBF;
-    color: #FFFFFF;
-    cursor: pointer;}
 
 .footer {
     background-color: #2e2f42;
@@ -221,3 +315,4 @@ color: #f4f4fd;
     letter-spacing: 0.02em;
     color: #F4F4FD;
 }
+
