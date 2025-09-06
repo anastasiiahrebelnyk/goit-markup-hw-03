@@ -73,8 +73,10 @@ img {
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
-    padding-top: 24px;
-    padding-bottom: 24px;
+    border: 1px solid #000;
+    min-width: 115px;
+    min-height: 24px;
+    margin-right: 76px;
 
 }
 
@@ -86,6 +88,7 @@ img {
     gap: 40px;
     margin-right: auto;
     justify-content: space-between;
+    
 
 }
 
@@ -93,6 +96,8 @@ img {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    font-weight: 500;
+        font-size: 16px;
     color: #2e2f42;
     list-style-type: none;
         text-transform: capitalize;
@@ -136,7 +141,8 @@ img {
 
 .first-section {
 background-color: #2E2F42;
-height: 600px;
+padding-top: 188px;
+padding-bottom: 188px;
 }
 
 h1 {
@@ -149,7 +155,7 @@ h1 {
         letter-spacing: 0.02em;
         text-align: center;
         display: block;
-        padding-top: 188px;
+        
         padding-bottom: 48px;
         max-width: 496px;
         margin: 0% auto;
@@ -221,6 +227,8 @@ h1 {
 
 .third-section {
     background-color: #F4F4FD;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .third-section-flex-box {
@@ -228,6 +236,7 @@ h1 {
     justify-content: space-between;
     gap: 24px;
     margin: 0 auto;
+    
 }
 
 .third-section-title {
@@ -237,7 +246,7 @@ h1 {
         text-align: center;
         text-transform: capitalize;
         font-weight: 500;
-        padding-top: 120px;
+        
         padding-bottom: 76px;
 }
 
@@ -256,30 +265,41 @@ h1 {
         color: #434455;
 }
 
+.third-section-list {
+    background-color: #FFFFFF;
+    width: calc(((100% - 3*24px) / 4));
+}
+
 .flex-text{
     text-align: center;
+}
+
+.forth-section {
+    margin-top: 120px;
+    margin-bottom: 152px;
 }
 
 .forth-section-flex-box {
     display: flex;
     flex-wrap: wrap;
-    width: calc((1128px - 2) / 3);
     gap: 24px;
 }
 
 .forth-section-title {
-    font-size: 36px;
         line-height: 1.11;
         letter-spacing: 0.02em;
         font-weight: 500;
         text-align: center;
         text-transform: capitalize;
+        margin-bottom: 72px;
+        font-weight: 700;
+            font-size: 36px;
 }
 
-.third-section-list {
-    background-color: #FFFFFF;
-    
+.forth-section-list-item {
+    width: calc((100% - 2*24px) / 3);
 }
+
 
 .forth-section-list-title {
     font-size: 20px;
@@ -289,7 +309,9 @@ h1 {
         text-align: center;
         text-transform: capitalize;
         color:#2e2f42;
-        padding-top: 120px;
+        text-align: left;
+        margin-bottom: 8px;
+
 }
 
 .forth-section-list-text {
@@ -297,22 +319,30 @@ h1 {
         letter-spacing: 0.02em;
         color: #434455;
         font-size: 16px;;
+        text-align: left;
 }
 
+.forth-section-list-image {
+    margin-bottom: 32px;
+}
 
 
 .footer {
     background-color: #2e2f42;
     color: #F4F4FD;
+   padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .logo-name-footer {
 color: #f4f4fd;
+margin-bottom: 16px;
 }
 
 .footer-text {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #F4F4FD;
+    max-width: 264px;
 }
 
