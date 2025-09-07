@@ -82,10 +82,10 @@ img {
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
-    border: 1px solid #000;
     min-width: 115px;
     min-height: 24px;
     margin-right: 76px;
+    border: none;
 
 }
 
@@ -94,11 +94,10 @@ img {
 }
 
 .nav {
-    gap: 40px;
+    
     margin-right: auto;
     justify-content: space-between;
-    padding: 24px 0;
-
+border: none;
 }
 
 .nav-link {
@@ -113,6 +112,11 @@ img {
         text-decoration: none;
     padding: 24px 0;
     
+}
+
+.list-box {
+    display: flex;
+    gap: 40px;
 }
 
 .nav-link:hover, .nav-link:focus {
@@ -163,10 +167,10 @@ h1 {
         letter-spacing: 0.02em;
         text-align: center;
         display: block;
-        
-        padding-bottom: 48px;
+        margin-bottom: 48px;
         max-width: 496px;
-        margin: 0% auto;
+        margin-right: auto;
+        margin-left: auto;
 }
 
 .hero-button {
@@ -177,7 +181,8 @@ h1 {
     letter-spacing: 0.04em;
     font-weight: 500;
     display: block;
-    margin: 0% auto;
+    margin-right: auto;
+    margin-left: auto;
     padding: 16px 32px;
     border-radius: 4px;
     border: none;
@@ -205,7 +210,6 @@ h1 {
 .values-list {
     display: flex;
     justify-content: space-between;
-    margin: 120px auto;
     gap: 24px;
 }
 
@@ -285,7 +289,6 @@ h1 {
         line-height: 1.2;
         letter-spacing: 0.02em;
         font-weight: 500;
-       padding-top: 32px;
     text-align: center;
     margin-bottom: 8px;
        
@@ -295,7 +298,6 @@ h1 {
     line-height: 1.5;
         letter-spacing: 0.02em;
         color: #434455;
-        padding-bottom: 32px;
         text-align: center;
 }
 
@@ -370,7 +372,7 @@ border-top: none
 }
 
 .portfolio-image {
-    margin-bottom: 32px;
+    
 }
 
 
@@ -396,4 +398,5 @@ margin-bottom: 16px;
 .footer-logo {
 display: inline-block;
 margin-bottom: 16px;
+margin-right: 0;
 }
